@@ -1,0 +1,32 @@
+.about{
+    background:whitesmoke;
+}
+img.about_img{
+    border-radius: 10px;
+    width: 80%;
+}
+h1.about_heading{
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+}
+.about_text{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    color: black;
+}
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: .4s ease;
+}
+.about__button{
+    padding: 20px 0px;
+}
