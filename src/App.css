@@ -138,6 +138,15 @@ p {
     flex-direction: column;
     margin-top: 20px;
 }
+.col_10{
+    max-width: 15%;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
 .component__space {
     padding: 100px 0px;
 }

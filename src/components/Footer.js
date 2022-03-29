@@ -25,28 +25,32 @@ function Footer() {
       <div className="navigation px_30">
              <ul className="navbar d_flex">
              <a href="#Home">
-                <li className="nav_items p-5 border mx_20">Home</li>
+                <li className="nav_items border extra-footer mx_20 ">Home</li>
               </a>
               <a href="#About">
-                <li className="nav_items p-5 mx_20">About</li>
+                <li className="nav_items extra-footer  mx_20">About</li>
               </a>
               <a href="#Services">
-                <li className="nav_items p-5 mx_20">Experts</li>
+                <li className="nav_items extra-footer mx_20">Experts</li>
               </a>
               <a href="#Services">
-                <li className="nav_items p-5 mx_20">Technology</li>
+                <li className="nav_items extra-footer  mx_20">Technology</li>
               </a>
               <a href="#Services">
-                <li className="nav_items p-5 mx_20">Projects</li>
+                <li className="nav_items extra-footer  mx_20">Projects</li>
               </a>
             
               <a href="#Contact">
-                <li className="nav_items p-5 mx_20">Contact</li>
+                <li className="nav_items extra-footer mx_20">Contact</li>
               </a>
              </ul>
 
            </div>
-    
+
+           <div className="lastFooter">
+           <h3>Connect me @gmail :</h3><p> suhairk.dev@gmail.com</p>
+           </div>
+
       </div>
 
  

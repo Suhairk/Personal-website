@@ -1,11 +1,11 @@
  /*<< important styles*/
  h1.heading_tech {
-  font-size: 60px;
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 2px;
   color: black;
 }
 .heading{
@@ -130,7 +130,7 @@
   }
   .items-8{
     /*background-image: linear-gradient(to top, #520f60, #3650a2, #0086d0, #00bae7, #12ebeb);*/
-    background-image: url(../img/tensorflow.png);
+    background-image: url(../img/node.png);
     background-size: cover;
   }
   .items-9{
@@ -140,32 +140,18 @@
   }
   .items-10{
     /*background-image: linear-gradient(to top, #240f60, #4f1884, #7f1ea6, #b31ec6, #eb12e2);*/
-    background-image: url(../img/aws.webp);
+    background-image: url(../img/mysql.png);
     background-size: cover;
   }
   
   .items-11{
-    background-image: url(../img/json.png);
+    background-image: url(../img/mongo.png);
     background-size: cover;
   }
   .items-12{
   /*background-image: linear-gradient(to bottom, #051937, #00466d, #007aa1, #00b1cc, #12ebeb);*/
-  background-image: url(../img/mongo.png);
+  background-image: url(../img/git.png);
   background-size: cover;
 
   }
-  .items-13{
-    /*background-image: linear-gradient(to top, #520f60, #3650a2, #0086d0, #00bae7, #12ebeb);*/
-    background-image: url(../img/mysql.png);
-    background-size: cover;
-  }
-  .items-14{
-    /*background-image: linear-gradient(to bottom, #520f60, #741580, #9918a1, #c118c2, #eb12e2);*/
-    background-image: url(../img/rest.png);
-    background-size: cover;
-  }
-  .items-15{
-    /*background-image: linear-gradient(to top, #240f60, #4f1884, #7f1ea6, #b31ec6, #eb12e2);*/
-    background-image: url(../img/git.png);
-    background-size: cover;
-  }
+
