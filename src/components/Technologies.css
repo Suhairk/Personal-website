@@ -1,4 +1,17 @@
  /*<< important styles*/
+ h1.heading_tech {
+  font-size: 60px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+.heading{
+  padding-top: 1rem;
+
+}
  .technology{
      background-color: whitesmoke;
  }
@@ -155,7 +168,4 @@
     /*background-image: linear-gradient(to top, #240f60, #4f1884, #7f1ea6, #b31ec6, #eb12e2);*/
     background-image: url(../img/git.png);
     background-size: cover;
-  }
-  .heading{
-    color:black;
   }

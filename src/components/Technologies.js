@@ -7,10 +7,10 @@ function Technologies() {
     <Helmet>
     <script src=
     "./Techscript.js" 
-    type="text/javascript" />
+    type="text/html" />
     </Helmet>  
     <div className="heading">
-    <h1 className="heading " >Technologies</h1>
+    <h1 className="heading_tech">Technologies</h1>
     </div>
     <div className="container">
     <div className="row">
@@ -23,7 +23,7 @@ function Technologies() {
     </div>
 
     <div className="col_5">
-        <div class="scene">
+        <div className="scene">
             <div className="items items-2">
             <div className="item font"></div>
             <div className="item back"></div>       

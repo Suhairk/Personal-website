@@ -1,0 +1,114 @@
+
+
+.contacts-space{
+    background-color: rgb(94, 91, 91);
+}
+h1.heading_con{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.formContainer{
+    margin-top: 1rem;
+}
+.row{
+    display: flex;
+}
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
+    margin-top: 3rem;
+}
+.formContainer{
+    width: 100%;   
+}
+
+.inputGroup{
+    margin-left: 0px;
+}
+input,textarea{
+    width: 100%;
+    padding: .5rem;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 2rem;
+}
+label{
+    color: white;
+    padding: .5rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-left: 2rem;
+    transition: 2s;
+    cursor: pointer;
+}
+.button{
+    width: 100%;
+    margin: 10px;
+    padding: .5rem;
+    background-color: rgb(18, 156, 60);
+    border: 2px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: 2s;
+}
+.button:hover{
+    background-color: rgb(226, 219, 219);
+    color: rgb(18, 156, 60);
+    box-shadow: 0 8px 16px 0 rgba(226, 221, 221, 0.4);
+}
+
+label:hover{
+    background-color: rgb(2, 48, 31);
+    border-radius: 10px;
+}
+.contactMain{
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(40deg, rgba(2,0,36,1) 0%, rgb(192, 197, 195) 35%, rgb(153, 215, 228) 100%);
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+.detailsContainer{
+    display: flex;
+    margin-left: 1rem;
+    height: 100%;
+    padding: 1rem;
+}
+.locIcon{
+    margin-right: 1rem;
+    font-size: 25px;
+    color: rgb(18, 156, 60);
+    border-radius:50%;
+    height: 30px;
+    width: 30px;
+}
+.detailsTextHeader{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.googleContainer{
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+.detailsText{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: sans-serif;
+}

@@ -9,7 +9,7 @@ function About() {
             <img src={aboutImg} alt="suhairk" className="about_img" />
           </div>
           <div className="col_2">
-          <h1 className="about_heading">About Me</h1>
+          <h1 className="about_heading">About</h1>
           <div className="about_meta">
           <p className="about_text ">
                 There are many variations of passages of Lorem Ipsum available,

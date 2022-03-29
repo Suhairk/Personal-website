@@ -3,6 +3,9 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Technologies from './components/Technologies';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -11,7 +14,9 @@ function App() {
       <Hero/>
       <About/>
       <Services/>
-      <Technologies/>    
+      <Technologies/> 
+      <Contacts/>   
+      <Footer/>
     </div>
 
   );

@@ -5,7 +5,7 @@ function Services() {
     <div className="service component_space" id="Services">
 
       <div className="heading">
-        <h1 className="heading col-white">Experts</h1>
+        <h1 className="heading_services">Experts</h1>
       </div>
 
       <div className="container">
@@ -16,10 +16,10 @@ function Services() {
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,10 +47,10 @@ function Services() {
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -79,10 +79,10 @@ function Services() {
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -112,10 +112,10 @@ function Services() {
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -144,10 +144,10 @@ function Services() {
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -177,10 +177,10 @@ function Services() {
                 <svg
                   stroke="currentColor"
                   fill="none"
-                  stroke-width="2"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
