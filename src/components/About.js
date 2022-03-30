@@ -1,4 +1,4 @@
-import aboutImg from '../img/about.jpg'
+import aboutImg from '../img/about1.jpeg'
 import './About.css'
 function About() {
   return (
@@ -12,27 +12,25 @@ function About() {
           <h1 className="about_heading">About</h1>
           <div className="about_meta">
           <p className="about_text ">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+          Graduated in electronics and communication engineering, passionate, dedicated
+          and competent software developer who has hands-on experience in
+          designed and developed software applications, strong knowledge in frontend development, 
+          backend development and mobile application development
               </p>
               <p className="about_text p_color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              A confident, articulate
+              and organised person with strong interpersonal skills who is able to
+              effectively do all of the duties required of an adminstrator, dedicated to great 
+              customer engagements and able to quickly grasp the working
+              of an organisation as well as its exact needs
               </p>
-              <p className="about_text p_color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-              </p>l
+            
               {/* button */}
               <div className="about_button d_flex align_items_center">
                 <a href="#">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                <a href="#">
+                <a href="#Contacts">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>

@@ -1,8 +1,11 @@
 
 .service{
-background-color: rgb(86, 240, 135);
+background-color: rgb(18, 156, 60);
 }
-
+.service_meta{
+    display: flex;
+    flex-wrap: wrap;
+}
 h1.heading_services {
     font-size: 60px;
     text-align: center;
@@ -49,10 +52,12 @@ p.heading.p_color {
 }
 p.service_text.p_color {
     margin-bottom: 0;
+    text-align: justify;
+    
 }
 h1.service_text {
     font-size: 18px;
     font-family: sans-serif;
-    padding: 5px 0px;
+    padding: 1px 0px;
 
 }

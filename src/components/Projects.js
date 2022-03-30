@@ -35,7 +35,7 @@ const breakPoints =[
 
 function Projects() {
   return (
-    <div className = "project-space">
+    <div className = "project-space" id="Projects">
            <div className="heading">
             <h1 className="heading_services">Projects</h1>
             </div>

@@ -2,6 +2,8 @@
     background:whitesmoke;
 }
 img.about_img{
+    margin-top: .8rem;
+    padding: 1rem;
     border-radius: 10px;
     width: 80%;
 }
@@ -19,6 +21,7 @@ h1.about_heading{
     font-family: sans-serif;
     margin-bottom: 15px;
     color: black;
+    text-align: justify;
 }
 button.about.btn.pointer {
     text-transform: capitalize;

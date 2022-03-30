@@ -3,8 +3,7 @@ import './Technologies.css'
 //import {Helmet} from "react-helmet";
 function Technologies() {
   return (
-    <div className="technology component_space" id="Technology">
-  
+    <div className="technology component_space" id="Technologies">
     <div className="heading">
     <h1 className="heading_tech">Technologies</h1>
     </div>

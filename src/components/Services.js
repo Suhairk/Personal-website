@@ -8,7 +8,7 @@ import { GiArtificialIntelligence} from "react-icons/gi";
 
 function Services() {
   return (
-    <div className="service component_space" id="Services">
+    <div className="service component_space" id="Experts">
 
       <div className="heading">
         <h1 className="heading_services">Experts</h1>
@@ -24,12 +24,11 @@ function Services() {
               <div className="service_meta">
                 <h1 className="service_text">Frontend Development</h1>
                 <p className="p service_text p_color">
-                  I throw myself down among the
+                user-side applications, 
+                including visual elements like menu bars, clickable 
+                buttons and the overall layout of websites 
+               
                 </p>
-                <p className="p service_text p_color">
-                  tall grass by the stream as I lie
-                </p>
-                <p className="p service_text p_color">close to the earth.</p>
               </div>
             </div>
           </div>
@@ -57,12 +56,11 @@ function Services() {
               <div className="service_meta">
                 <h1 className="service_text">Backend Development</h1>
                 <p className="p service_text p_color">
-                  I throw myself down among the
+                who creates components and features on the server-side,
+                indirectly accessed by a user through a front end application
+                or system
                 </p>
-                <p className="p service_text p_color">
-                  tall grass by the stream as I lie
-                </p>
-                <p className="p service_text p_color">close to the earth.</p>
+
               </div>
             </div>
           </div>
@@ -75,12 +73,9 @@ function Services() {
               <div className="service_meta">
                 <h1 className="service_text">Web Development</h1>
                 <p className="p service_text p_color">
-                  I throw myself down among the
+                design and construction of websites. They ensure that sites meet user expectations by ensuring 
+                they look good and run smoothly
                 </p>
-                <p className="p service_text p_color">
-                  tall grass by the stream as I lie
-                </p>
-                <p className="p service_text p_color">close to the earth.</p>
               </div>
             </div>
           </div>
@@ -92,13 +87,11 @@ function Services() {
               </div>
               <div className="service_meta">
                 <h1 className="service_text">Mobile App Development</h1>
-                <p className="p service_text p_color">
-                  I throw myself down among the
+                <p className="service_text p_color">
+                uses programming languages and development skills to create, test, 
+                and develop applications on mobile devices.
                 </p>
-                <p className="p service_text p_color">
-                  tall grass by the stream as I lie
-                </p>
-                <p className="p service_text p_color">close to the earth.</p>
+                
               </div>
             </div>
           </div>
@@ -111,15 +104,15 @@ function Services() {
               <div className="service_meta">
                 <h1 className="service_text">Marketing & Reporting</h1>
                 <p className="p service_text p_color">
-                  I throw myself down among the
+                the process of measuring progress, showing value, and identifying
+                 actionable steps to improve marketing performance 
                 </p>
-                <p className="p service_text p_color">
-                  tall grass by the stream as I lie
-                </p>
-                <p className="p service_text p_color">close to the earth.</p>
+               
               </div>
             </div>
           </div>
+
+          
 
           <div className="col_3">
             <div className="service_box pointer">
@@ -129,12 +122,10 @@ function Services() {
               <div className="service_meta">
                 <h1 className="service_text">AI Applications Development</h1>
                 <p className="p service_text p_color">
-                  I throw myself down among the
+                harness the power of AI to create intelligent applications for common use cases, 
+                such as contact center intelligence, document analysis
                 </p>
-                <p className="p service_text p_color">
-                  tall grass by the stream as I lie
-                </p>
-                <p className="p service_text p_color">close to the earth.</p>
+  
               </div>
             </div>
           </div>

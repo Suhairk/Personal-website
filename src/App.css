@@ -1,4 +1,4 @@
-* {
+*,*::after , *::before {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -76,7 +76,7 @@ p {
 }
 
 .px_30 {
-    padding: 0px 30px;
+    padding: 0px 10px;
 }
 
 .p_30 {
@@ -210,7 +210,7 @@ button.about.btn.pointer:hover {
 
 /* RESPONSIVE */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .col_2 {
         max-width: 100%;
     }
@@ -235,4 +235,4 @@ button.about.btn.pointer:hover {
     .footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
         flex-wrap: wrap;
     }
-}
+} */

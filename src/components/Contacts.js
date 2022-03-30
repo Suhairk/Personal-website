@@ -5,7 +5,7 @@ import { MdMailOutline} from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 function Contacts() {
   return (
-    <div className = "contacts-space">
+    <div className = "contacts-space" id = "Contacts">
         <div className="heading">
         <h1 className="heading_con">Contacts</h1>
         </div>
@@ -25,13 +25,13 @@ function Contacts() {
             </div>
 
             <div className ="inputGroup">
-            <label htmlFor = "phone">Phone</label>
-            <input type = "tel" name ="phone" id = "phone" required></input>
+            <label htmlFor = "phone">Mobile Number</label>
+            <input type = "number" name ="phone" id = "phone" required></input>
             </div>
 
             <div className ="inputGroup">
             <label htmlFor = "message">Message</label>
-            <textarea type = "text" name ="phone" id = "phone" cols = "10" required></textarea>
+            <textarea type = "text" name ="message" id = "message" cols = "10" required></textarea>
             </div>
             <button type = "submit" className="button">Send</button>
            </form>
@@ -46,20 +46,20 @@ function Contacts() {
                 </div>
                 
                 <div className = "detailsContainer">
-                <MdMailOutline className ="locIcon" size ="25"/>
+                <MdMailOutline className ="locIcon" size ="25" onClick={()=>window.location.href = 'mailto:suhairk.dev@gmail.com'} />
                 <p className ="detailsTextHeader">suhairk.dev@gmail.com</p>
                 <p></p>
                 </div>
 
                 <div className = "detailsContainer">
-                <BsFillTelephoneFill className ="locIcon" size ="25"/>
+                <BsFillTelephoneFill className ="locIcon" size ="25" onClick={()=>window.location.href = 'tel:+971522563595'}/>
                 <p className ="detailsTextHeader">+971 522563595</p>
                 <p></p>
                 </div>  
                 </div>
                 <div className = "googleContainer">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31334.140559625426!2d75.85971541802714!3d10.98090872970938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ad117d291781%3A0x790eaf9b9d484802!2sTanur%2C%20Kerala%20676302%2C%20India!5e0!3m2!1sen!2sae!4v1648476247484!5m2!1sen!2sae" width="100%" height="260"  style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                    </div>       
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31334.140559625426!2d75.85971541802714!3d10.98090872970938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ad117d291781%3A0x790eaf9b9d484802!2sTanur%2C%20Kerala%20676302%2C%20India!5e0!3m2!1sen!2sae!4v1648476247484!5m2!1sen!2sae" width="100%" height="216"  style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>       
             </div>
         </div>
     </div>

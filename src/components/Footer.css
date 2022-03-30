@@ -53,7 +53,7 @@ h1.footerHeader{
 
 li.nav_items{
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 700;
     
 }
 
@@ -61,18 +61,21 @@ li.nav_items{
     padding: 8px;
     border-radius: 10px 10px;
     color: rgb(18, 156, 60);
-    transition: 1.5s;
+    text-align: center;
+    transition: .3s;
     
 }
  .extra-footer:hover{
      background-color: rgb(18, 156, 60);
      color: white;
-     border-radius: 15%;
+     border-radius: 10px;
+     border: 1px solid white;
  }
 .lastFooter{
     display: flex;
-    margin-left: 3.5rem;
+    margin-left: 1rem;
     padding: 1rem;
+
 }
 .lastFooter p{
     font-weight: 600;

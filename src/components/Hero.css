@@ -5,13 +5,39 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-li.nav_items{
+li.nav_items_home{
     font-size: 18px;
     padding-bottom: 15px;
+    font-weight: 1000;
+    transition: 1s;
+}
+li.nav_items_contact{
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: 1000;
+}
+.contactback,.nav_items_home:hover{
+    padding: 5px;
+    background-color: rgb(18, 156, 60);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.logo{
+    margin-top: 1.4rem;
+    cursor: pointer;
+}
+.logoImage{
+    width: 40px;
+    height: 40px;
+}
+.navigationContainer{
+    margin-top: 2rem;
 }
 
 .home_content{
-    padding: 125px 0px;
+    padding: 190px 0px;
 }
 h1.home_text{
     font-size: 18px;
