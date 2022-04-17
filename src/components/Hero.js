@@ -1,6 +1,10 @@
 import logo from "../img/logo.png"
 import "./Hero.css"
 function Hero() {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    header.classList.toggle("active", window.scrollY > 0);
+  });
   return (
      <div className="hero" id="Hero">
        <div className="hero_bg">

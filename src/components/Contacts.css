@@ -43,10 +43,12 @@ input,textarea{
     font-size: 20px;
     font-weight: 200;
     margin-left: 2rem;
-    outline:auto;
-    outline-color:rgb(196, 196, 196) ;
     text-decoration: none;
-    
+    outline: none;
+}
+input:focus, textarea:focus{
+    border: 2px solid rgb(18, 156, 60);
+
 }
 label{
     color: rgb(0, 0, 0);

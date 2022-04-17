@@ -15,16 +15,16 @@ li.nav_items_home{
 }
 li.nav_items_contact{
     font-size: 18px;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     font-weight: 1000;
 }
-.contactback,.nav_items_home:hover{
+/* .contactback,.nav_items_home:hover{
     padding: 5px;
     background-color: rgb(18, 156, 60);
     color: white;
     border-radius: 10px;
     border: 1px solid white;
-}
+} */
 
 .logo{
     margin-top: 1.4rem;
@@ -46,30 +46,40 @@ h1.home_text{
     font-weight: 400;
     letter-spacing: 3px;
     color: rgba(198,201,216,.75)!important;
+    font-size: 54px;
 }
 h2.home_text{
-    font-size: 54px;
+    font-size: 46px;
     line-height: 54px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
 }
 h3.home_text{
-    font-size: 42px;
+    font-size: 34px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
     line-height: 40px;
 }
 h4.home_text{
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 40px;
     font-family: Montserrat,sans-serif;
     
 }
-
-@media(min-width:420px){
+.header{
+    transition: .4s all ease;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 25px;
+    background-color: rgb(44, 44, 46);
+}
+/* @media(min-width:420px){
     .h1.home_text{
         margin-left: 5rem;   
         color: aqua;
         }
-}
+} */
